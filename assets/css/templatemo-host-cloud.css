@@ -374,6 +374,7 @@ header {
 .functional-buttons ul li:first-child a:hover {
 	color: #fff;
 	background-color: dodgerblue;
+	border-color: dodgerblue;
 }
 
 .functional-buttons ul li:last-child a {
@@ -397,11 +398,14 @@ header {
 
 /* Banner Style */
 .banner {
-	/* background-image: url(../images/banner-bg.jpg); */
-	background-size: cover;
-	background-repeat: no-repeat;
 	padding: 150px 0px;
-	background-position: center center;
+}
+
+.quotes {
+	margin-left: 0 !important;
+	left: 0;
+	text-align: left;
+
 }
 
 .banner .caption {
@@ -423,107 +427,36 @@ header {
 	color: #5c6e80;
 }
 
-/* .banner #search-section fieldset {
-	display: inline-block;
-} */
+.box-ilustrasi {
+	padding: 50px;
+	background-color: #fbdd9d;
+	border-radius: 15px;
+}
 
-.banner #search-section {
+.cont {
+	width: 100%;
 	position: relative;
+	right: 30%;
+	left: 20%;
+	border: dodgerblue;
 }
 
-.banner #search-section input.searchText {
-	float: left;
-	width: 570px;
-	min-width: 280px;
-	height: 49px;
-	background-color: #ffff;
-	border: 1px solid #fff;
-	padding: 0px 15px;
-	color: #000000;
-	outline: none;
-	font-size: 14px;
-	letter-spacing: 0.5px;
-	margin-bottom: 30px;
-}
-
-.banner #search-section input.main-button {
+.box-kontak {
+	padding: 30px 60px;
+	background-color: white;
+	border-radius: 15px;
+	border: 2px solid dodgerblue;
+	max-width: 200%;
+	margin left: 40%;
+	margin right: 50;
 	position: absolute;
-	top: 0;
+	z-index: 980;
+	top: -50px;
+}
+
+.ilustrasi {
+	width: 300px;
 	right: 0;
-	outline: none;
-	cursor: pointer;
-	display: inline-block;
-	height: 50px;
-	line-height: 50px;
-	padding: 0px 20px;
-	border: none;
-	margin-left: 10px;
-	background-color: #00bcd4;
-	color: #000000;
-	text-transform: uppercase;
-	font-size: 15px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	transition: all 0.5s;
-	margin-bottom: 30px;
-}
-
-.banner #search-section button:hover {
-	background-color: #00a4b9;
-}
-
-#search-section ul {
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	display: inline-block;
-}
-
-#search-section ul li {
-	display: inline-block;
-	margin-right: 30px;
-}
-
-#search-section ul li:last-child {
-	margin-right: 0px;
-}
-
-#search-section input[type=checkbox] {
-	width: 18px;
-	min-width: 18px;
-	height: 18px;
-	background-color: transparent;
-	border: 1px solid #fff;
-	outline: none;
-	cursor: pointer;
-}
-
-#search-section span {
-	color: #fff;
-	font-size: 15px;
-	font-weight: 700;
-	margin-left: 8px;
-}
-
-#search-section em {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	color: #fff;
-}
-
-#search-section ::-webkit-input-placeholder {
-	/* Edge */
-	color: #fff;
-}
-
-#search-section :-ms-input-placeholder {
-	/* Internet Explorer 10-11 */
-	color: #fff;
-}
-
-#search-section ::placeholder {
-	color: #fff;
 }
 
 
@@ -535,7 +468,7 @@ header {
 	color: #fff;
 }
 
-.functional-buttons ul li:first-child a {
+.functional-buttons1 ul li:first-child a {
 	display: inline-block;
 	background-color: transparent;
 	border: 2px solid #fff;
@@ -582,8 +515,16 @@ header {
 }
 
 .services-section .section-heading h2 {
-	color: #1e1e1e;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: -60px;
+	/* margin-bottom: 50px; */
+	font-size: 30px;
+	font-weight: 500;
+	color: grey;
+	text-align: absolute;
 }
+
 
 .services-section .service-item {
 	background-color: #f7f7f7;
