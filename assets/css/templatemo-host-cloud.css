@@ -1,11 +1,3 @@
-/*
-
-Host Cloud Template
-
-https://templatemo.com/tm-541-host-cloud
-
-*/
-
 body {
 	font-family: 'Roboto', sans-serif;
 	transition: all 0.5s;
@@ -442,16 +434,52 @@ header {
 }
 
 .box-kontak {
-	padding: 30px 60px;
+	padding: 1px 9px;
 	background-color: white;
 	border-radius: 15px;
 	border: 2px solid dodgerblue;
-	max-width: 200%;
-	margin left: 40%;
-	margin right: 50;
+	max-width: 100%;
+	margin-left: 40;
+	margin-right: 50;
 	position: absolute;
-	z-index: 980;
-	top: -50px;
+	z-index: 2px;
+	top: -40px;
+}
+
+.col-md-auto {
+	color: #7a7a7a;
+}
+
+.col-md-auto1 {
+	border-left: 1px solid black;
+	height: 100%;
+	line-height: 1px;
+	color: #7a7a7a;
+}
+
+.col-md-auto2 {
+	border-left: 1px solid black;
+	height: 100%;
+	line-height: 1px;
+	color: #7a7a7a;
+}
+
+.col-md-auto3 {
+	border-left: 1px solid black;
+	height: 100%;
+	line-height: 1px;
+	color: #7a7a7a;
+}
+
+.col-md-auto4 {
+	border-left: 1px solid black;
+	height: 100%;
+	line-height: 1px;
+	color: #7a7a7a;
+}
+
+.fas fa-phone-alt {
+	font-size: 100px;
 }
 
 .ilustrasi {
@@ -468,7 +496,7 @@ header {
 	color: #fff;
 }
 
-.functional-buttons1 ul li:first-child a {
+.functional-buttons12 ul li:first-child a {
 	display: inline-block;
 	background-color: transparent;
 	border: 2px solid #fff;
